@@ -9,8 +9,7 @@
 # 2 - Listar alunos          Nesse formato
 # 3 - Remover aluno
 # 4 - Sair
-# Funcionalidades: tem alguma coisa errada anyway.
-# muhehehehehe
+# Funcionalidades:
 
 # ARMAZENAMENTO 
 
