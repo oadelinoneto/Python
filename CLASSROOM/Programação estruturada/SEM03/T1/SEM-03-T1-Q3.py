@@ -1,8 +1,8 @@
-x = int(input())
-y = int(input())
-z = x // y
+doces_produzidos = int(input())
+pacotes_disponiveis = int(input())
+doce_caixa = doces_produzidos // pacotes_disponiveis
 
-if z < 1:
+if doce_caixa < 1: # não dá pra ter menos de 1 doce por caixa 
     pass
 else:
-    print(z)
+    print (doce_caixa)
