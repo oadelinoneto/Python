@@ -1,9 +1,12 @@
+
 po_de_lua = int(input())
 essencia_de_dragao = int(input())
 lagrima_fenix = int(input())
 
-if po_de_lua == 0 and essencia_de_dragao == 0 and lagrima_fenix == 0: 
-    pass
-else:
-    custo = (po_de_lua*5) + (essencia_de_dragao*3) + (lagrima_fenix*8)
-    print(custo)
+custo_po_lua = po_de_lua * 5
+custo_essencia_dragao = essencia_de_dragao * 3
+custo_lagrima_fenix = lagrima_fenix * 8
+
+custo_total = custo_po_lua + custo_essencia_dragao + custo_lagrima_fenix
+
+print(custo_total)
