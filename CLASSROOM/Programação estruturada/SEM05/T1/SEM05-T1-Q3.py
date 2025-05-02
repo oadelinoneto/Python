@@ -1,0 +1,6 @@
+valor_default = float(input())
+valor_desconto = float(input())
+descontado = valor_default - (valor_default * (valor_desconto / 100))
+aumento = valor_default * (1 + (valor_desconto/100))
+print(f'{aumento:.2f}')
+print(f'{descontado:.2f}')

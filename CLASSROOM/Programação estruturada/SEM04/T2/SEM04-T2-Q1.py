@@ -1,0 +1,11 @@
+valor1= float(input())
+valor2=int(input())
+
+print(valor1+valor2)
+print(f'{valor1}{valor2}')
+print(float(valor1*valor2))
+print(f'{valor1}'*valor2)
+print(valor1/valor2)
+print(valor1//valor2)
+print(valor1**valor2)
+print(valor1%valor2)
