@@ -1,22 +1,23 @@
-def idade(atual,nascimento):
-    anos = atual[2] - nascimento[2]
-    
-    if atual[1] < nascimento[1]:
-        anos = anos - 1
-    elif atual[1] == nascimento [1] and atual[0] < nascimento[0]:
-        anos = anos - 1
-    
-    return anos
+def idade(dia_atual,mes_atual,ano_atual,dia_nascimento,mes_nascimento,ano_nascimento):
+    idade_atual = ano_atual - ano_nascimento
 
+    if mes_atual < mes_nascimento:
+        idade_atual = idade_atual - 1
+        
+    elif mes_atual == mes_nascimento and dia_atual < dia_nascimento:
+        idade_atual = idade_atual - 1
+
+    return idade_atual
+ 
 
 dia_atual = int(input())
 mes_atual = int(input())
 ano_atual = int(input())
-data_atual = [dia_atual,mes_atual,ano_atual]
+
 
 dia_nascimento = int(input())
 mes_nascimento = int(input())
 ano_nascimento = int(input())
-data_nascimento = [dia_nascimento,mes_nascimento,ano_nascimento]
 
-print(idade(data_atual,data_nascimento))
+
+print(idade(dia_atual,mes_atual,ano_atual,dia_nascimento,mes_nascimento,ano_nascimento))
